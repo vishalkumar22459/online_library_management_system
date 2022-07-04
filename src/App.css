@@ -1,0 +1,342 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.h-bg{
+  background-image: url("../public/images/lib1.jpg");
+  height: 101vh;
+  margin-top: -70px;
+  font-size: 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.container-fluid{
+  background-color: #b0c2e6;
+}
+
+.nav{
+  margin-top: 0%;
+}
+
+.form-label{
+  font-style: normal;
+  font-size: 20px;
+}
+.signup{
+  background-color: aqua;
+}
+
+
+
+
+
+
+
+
+.card{
+  background-color: #f0f0f0;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.stud-dashboard{
+  position: relative;
+  border: 1px outset #282c34;
+  background-color: #efe9e9;
+  height: auto;
+  width: 100%;
+}
+
+.stud-detail{
+    margin: 10px 10px 10px 10px;
+    background-color: blanchedalmond;
+    border: 1px outset black;
+    height: auto;
+}
+
+.detail{
+  border: 1px outset darkred;
+  align-items: right;
+  width: 45%;
+}
+
+
+.librarian-dashboard{
+  background-color: #0a885e;
+  border: 1px outset rgb(236, 23, 15);
+
+}
+
+.librarian-detail{
+  color: #63061d;
+  padding-top: 15px;
+  text-align: center;
+  border: 1px outset black;
+  background-color: lightblue;
+}
+
+.lib-new-book{
+  background-color: #d7dbf0;
+  border: outset;
+  height: 410px;
+}
+.lib-remove-book{
+  background-color: #d7dbf0;
+  border:outset ;
+  width: 50%;
+  height: 400px;
+}
+.add-books{
+  background-color: #e8e9c2;
+  border: outset;
+  width: 50%;
+  height: 400px;
+
+}
+
+/* Admin page*/
+
+.admin-info{
+  border: outset;
+  background-color: #d2e0dc;
+  width: 50%;
+  height: 400px;
+}
+.admin-title{
+  /* border: outset; */
+  text-align: center;
+  padding-top: 2px;
+}
+.my-details{
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  word-break: break-word;
+  border: outset;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 40px 150px 0 150px;
+  text-align: center;
+  padding-top: 35px;
+  height: 250px;
+  overflow:hidden;
+}
+
+.heading{
+  margin-top:10px ;
+  text-align: center;
+  padding: 10px auto;
+}
+.remove-user{
+  border: outset;
+  background-color: #d2e7f1;
+  text-align: center;
+  width: 50%;
+}
+[name="admin-dashboard"]{
+  margin-top:-40px;
+  height: 25vh;
+  background-color: #e5f2f3;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.admin-add-user{
+  border:outset;
+  background-color: #d2e0dc;
+  width: 50%;
+  height: 666px;
+}
+
+.msg{
+  /* border:  outset; */
+  color: red;
+  margin-left: 110px;
+  width: 50%;
+}
+
+
+
+/* student page */
+[name="stud-dashboard"]{
+  height: 101vh;
+  background-color: #e5f2f3;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.stud-title{
+  padding-top: 15px;
+  text-align: center;
+}
+
+#stud-dashboard{
+  background-color: #518a77;
+}
+
+.student-info{
+  border:outset;
+  background-color: #e7fcf5;
+  width: 50%;
+  height: 350px;
+}
+
+
+.borrow-book{
+  border: outset;
+  background-color: #d2e7f1;
+  width: 50%;
+  height: 350px;
+}
+
+.x{
+  border: 1px outset black;
+  height: 20%;
+}
+
+.my-details-student{
+  display:block;
+  white-space: pre-wrap;
+  border: outset;
+  margin: 10px 150px 0 150px;
+  text-align: center;
+  padding-top: 35px;
+  height: 250px;
+}
+
+.stud-form{
+  /* border:1px inset;
+  margin: 10px 10px 10px 180px; */
+  padding: 10px 10px 10px 200px;
+}
+
+
+/* booklist */
+.book-list{
+  background-color: hsl(91, 53%, 88%);
+  /* background-image:url("../public/images/lib3.jpg"); */
+  height: 101vh;
+  /* margin-top: 0px; */
+  font-size: 30px;
+  color: #000000;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+
+
+/* register */
+.reg-form{
+  text-align: right;
+  width: 150%;
+  margin-left: 15%;
+  margin-top: 10%;
+  /* padding:  50px 50px 10px 50px; */
+}
+
+
+
+
+/* librarian dashboard  valid css */
+.user-info{
+  border:1px outset;
+  background-color:white;
+  width: 100%;
+  display: block;
+}
+
+.user-details{
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  word-break: break-word;
+  border: outset;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 10px 30px 30px 30px;
+  text-align: center;
+  padding-top: 35px;
+  height: 250px;
+  overflow:hidden;
+}
+
+.addNewBooks{
+  border:1px outset;
+  background-color:white;
+  width: 100%;
+  display: block;
+}
+.addBooks{
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  word-break: break-word;
+  border: outset;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 10px 30px 30px 30px;
+  text-align: center;
+  padding-top: 35px;
+  height: 250px;
+  overflow:hidden;
+}
+
+
+.form-group{
+  margin: 0 30px 0 30px;
+}
+
+.tablediv{
+  border:outset ;
+  height: 50%;
+}
+.headingbooktable{
+  text-align: center;
+  border:1px outset #000000 ;
+  margin-bottom: -5px;
+}
+
+.udate-book-box{
+  border:inset ;
+  height: 25%;
+}
+.udate-user-box{
+  border:inset ;
+  height: 32%;
+
+}
+
+.reg-nav-div{
+  height: 50%;
+}
